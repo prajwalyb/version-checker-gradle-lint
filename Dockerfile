@@ -2,9 +2,7 @@ FROM openjdk:11
 
 
 
-# Install Build Essentials
-RUN yum update \
-    && yum install build-essential -y
+
 
 # Set Environment Variables
 ENV SDK_URL="https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip" \
