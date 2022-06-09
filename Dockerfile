@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:8
 
 # Set Environment Variables
 ENV SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" \
