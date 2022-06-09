@@ -13,7 +13,7 @@ ENV SDK_URL="https://dl.google.com/android/repository/commandlinetools-linux-851
 
 # Download Android SDK
 RUN mkdir "$ANDROID_HOME" .android \
-    && chmod 666 "/usr/local/android-sdk"
+    && chmod 666 "/usr/local/android-sdk" \
     && cd "$ANDROID_HOME" \
     && curl -o sdk.zip $SDK_URL \
     && unzip sdk.zip \
