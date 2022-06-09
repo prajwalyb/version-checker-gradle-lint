@@ -15,7 +15,7 @@ RUN mkdir "$ANDROID_HOME" .android \
     && chmod 666 "$ANDROID_HOME" \
     && cd "$ANDROID_HOME" \
     && mkdir "cmdline-tools" \
-    && cd "cmdline-tools"
+    && cd "cmdline-tools" \
     && curl -o sdk.zip $SDK_URL \
     && unzip sdk.zip \
     && rm sdk.zip \
