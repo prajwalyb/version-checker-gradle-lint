@@ -6,7 +6,7 @@ ENV SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zi
     ANDROID_VERSION=29
 
 # Download Android SDK
-RUN mkdir -m666 "$ANDROID_HOME" .android \
+RUN mkdir -m777 "$ANDROID_HOME" .android \
     
     && cd "$ANDROID_HOME" \
     && curl -o sdk.zip $SDK_URL \
